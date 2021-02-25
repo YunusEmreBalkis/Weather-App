@@ -11,7 +11,7 @@ function weather(name){
 	fetch("https://community-open-weather-map.p.rapidapi.com/weather?q="+input.value, {
 	"method": "GET",
 	"headers": {
-		"x-rapidapi-key": "737b725379msh219e2f7870f346ap11e5bejsn9f752551c1d2",
+		"x-rapidapi-key": "API-KEY",
 		"x-rapidapi-host": "community-open-weather-map.p.rapidapi.com"
 	}
 })
