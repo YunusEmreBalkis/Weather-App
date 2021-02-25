@@ -1,0 +1,56 @@
+body{
+    background-image: url(back.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.input{
+    text-align: center;
+    margin: 200px 0;
+}
+
+.inputvalue{
+    height: 40px;
+    width: 500px;
+    background:rgba(153, 0, 102, 0.582);
+    font-size: 25px;
+    border: none; /* <-- This thing here */
+    border-radius: 25px;
+    text-align: center; 
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+input, select, textarea {
+color: rgb(255, 255, 255);
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(241, 241, 241);
+    opacity: 1; /* Firefox */
+  }
+
+  input[type="submit"]{
+   height: 40px;
+    width: 120px;
+    background:rgb(6, 199, 54);
+    font-size: 25px;
+    border: none; /* <-- This thing here */
+    border-radius: 25px;
+    text-align: center; 
+  }
+
+.container{
+    width: 800px;
+    
+}
+.card{
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+    text-align: center;
+}
